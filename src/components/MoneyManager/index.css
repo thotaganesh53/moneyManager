@@ -1,0 +1,119 @@
+/* Write your CSS here */
+
+.Home {
+  height: 100vh;
+  font-family: 'roboto';
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.user-details {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 10px;
+  width: 100%;
+}
+.heading {
+  font-size: 24px;
+  color: #475569;
+  padding: 5px;
+}
+.description {
+  color: #475569;
+  font-size: 23px;
+  padding: 5px;
+}
+.title-name {
+  color: #0b69ff;
+}
+.bottom-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.container-money-details {
+  width: 100%;
+  margin-top: 15px;
+
+  display: flex;
+}
+.form-heading {
+  color: #475569;
+  font-size: 18px;
+}
+.form-container-details {
+  padding: 15px;
+  border: 1px solid #7e858e;
+  font-family: 'roboto';
+  width: 45%;
+  border-radius: 5px;
+  list-style-type: none;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.text-box {
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cbd5e1;
+}
+.label-color {
+  color: #7e858e;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.select-box {
+  padding: 5px;
+  color: #475569;
+  outline: none;
+  border: 1px solid #7e858e;
+  border-radius: 5px;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 6px;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+}
+.option-color {
+  background-color: bisque;
+}
+.history-container-elements {
+  border: 1px solid #d7dfe9;
+  text-align: center;
+  height: 30px;
+  padding: 10px;
+  width: 300px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-container-history {
+  font-size: 22px;
+  color: #1e293b;
+}
+.text-value1 {
+  text-align: center;
+
+  width: 75px;
+  margin-right: 20px;
+  margin-left: 20px;
+}

@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.transaction-container-elements {
+  border: 1px solid #d7dfe9;
+  text-align: center;
+  height: 30px;
+  padding: 13px;
+  width: 300px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-value {
+  text-align: center;
+  width: 75px;
+
+  padding: 5px;
+}
+.delete-button {
+  width: 17px;
+  height: 17px;
+}
+.delete-button-image {
+  border: none;
+  background-color: transparent;
+}
